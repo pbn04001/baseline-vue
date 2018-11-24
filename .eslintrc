@@ -1,8 +1,5 @@
 {
   "parser"  : "babel-eslint",
-  "extends" : [
-    "airbnb"
-  ],
   "env"     : {
     "browser" : true
   },
@@ -15,7 +12,6 @@
     "__VERBOSE__": false
   },
   "rules": {
-    "react/require-extension": "off",
     "max-len": [2, 150, 2, {
       "ignoreUrls": true,
       "ignoreComments": false,
@@ -32,6 +28,6 @@
     "no-prototype-builtins": "off",
     "no-underscore-dangle": "off",
     "no-undef": "off",
-    "arrow-body-style": "off",
+    "arrow-body-style": "off"
   }
 }
